@@ -1,0 +1,196 @@
+@charset "ISO-8859-1";
+
+html, body {
+	width: 100%;
+	height: 100%;
+	font-family: monospace;
+}
+
+#body-login {
+	background-color: teal;
+}
+
+#body-flex-login {
+	margin-top: 30px;
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	align-items: center;
+}
+
+#container-login {
+	display: flex;
+	width: 820px;
+	height: 500px;
+	background-color: white;
+}
+/*bên trái phần đăng nhập */
+#container-login-left {
+	width: 380px;
+	height: 500px;
+	background: linear-gradient(rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0.3)),
+		url("../images/img_book.jpg");
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding-left: 16px;
+	color: white;
+	opacity: 0.8;
+}
+
+#header-home {
+	background-image: url(../images/books.jpg);
+	background-position: center center;
+	background-size: cover;
+	height: 60vh;
+	border-radius: 10px;
+}
+
+#header-left {
+	text-align: center;
+}
+
+#text span {
+	font-size: 14px;
+	padding: 5px 8px;
+}
+
+#text {
+	padding-bottom: 64px;
+}
+
+.header-login {
+	margin-top: 32px;
+}
+
+#text-header {
+	font-size: 48px;
+}
+
+#text-slogan {
+	font-size: 12px;
+	opacity: 0.7;
+}
+
+#oval {
+	padding-top: 50px;
+}
+
+/* bên phải phần đăng nhập*/
+#container-login-right {
+	padding: 0 24px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex: 1;
+}
+
+#header-login {
+	
+}
+
+#header-right-login {
+	font-size: 20px;
+	color: #B7B7B7;
+}
+
+#icon-login-right {
+	
+}
+
+.actived {
+	color: #DA7C79;
+}
+
+#icon-login-right {
+	align-self: flex-end;
+	margin-bottom: 16px;
+}
+
+#container-center-right {
+	
+}
+
+#container-center-right input[type=text] {
+	margin-bottom: 8px;
+}
+
+#container-center-right input[type=password] {
+	margin-bottom: 8px;
+}
+
+#container-center-right input[type=submit] {
+	box-shadow: 0px 2px 5px 0px #000;
+}
+
+.container-signup-form {
+	display: none;
+}
+
+.text-in {
+	height: 38px;
+	border: 0;
+	width: 100%;
+}
+
+.primary-button {
+	height: 38px;
+	border: 0;
+	background-color: #00909C;
+	width: 99%;
+	margin-top: 2px;
+	font-size: 20px;
+}
+
+#acv {
+	color: red;
+}
+
+.input-icon-password {
+	height: 38px;
+	border: 0;
+	width: 99%;
+	background: url(../images/lock.png) no-repeat scroll 16px 7px;
+	background-color: #D8D8D8;
+	padding-left: 50px;
+}
+
+.input-icon-email {
+	height: 38px;
+	border: 0;
+	width: 99%;
+	background: url(../images/man-user.png) no-repeat scroll 16px 7px;
+	background-color: #D8D8D8;
+	padding-left: 50px;
+}
+
+/* menu*/
+.mymenu {
+	list-style-type: none;
+}
+
+.mymenu li {
+	color: red;
+}
+
+.error {
+	border-color: red;
+	color: red;
+}
+
+.error-message {
+	color: red;
+	font-style: italic;
+	margin-bottom: 1em;
+}
+.slider1{
+	background-image: url(../images/books1.jpeg)
+}
+.slider2{
+	background-image: url(../images/books.jpg)
+}
+
+.slider3{
+	background-image: url(../images/know.png)
+}
+

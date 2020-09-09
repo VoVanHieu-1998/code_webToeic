@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN" "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+<tiles-definitions>
+	<definition name="master-client"
+		template="/WEB-INF/views/client/jsp/layout/master.jsp">
+		<put-attribute name="header"
+			value="/WEB-INF/views/client/jsp/layout/header.jsp"></put-attribute>
+		<put-attribute name="search"
+			value="/WEB-INF/views/client/jsp/layout/search.jsp"></put-attribute>
+		<put-attribute name="body"
+			value="/WEB-INF/views/client/jsp/layout/body.jsp"></put-attribute>
+		<put-attribute name="footer"
+			value="/WEB-INF/views/client/jsp/layout/footer.jsp"></put-attribute>
+	</definition>
+
+	<definition name="master-client-exam"
+		template="/WEB-INF/views/client/jsp/layout/master-exam.jsp">
+		<put-attribute name="header"
+			value="/WEB-INF/views/client/jsp/layout/header1.jsp"></put-attribute>
+		<put-attribute name="body"
+			value="/WEB-INF/views/client/jsp/layout/body.jsp"></put-attribute>
+
+	</definition>
+
+	<definition name="master-admin"
+		template="/WEB-INF/views/admin/jsp/layout/master-layout.jsp">
+		<put-attribute name="sidebar"
+			value="/WEB-INF/views/admin/jsp/layout/sidebar.jsp"></put-attribute>
+		<put-attribute name="top-nav"
+			value="/WEB-INF/views/admin/jsp/layout/top-nav.jsp"></put-attribute>
+		<put-attribute name="body"
+			value="/WEB-INF/views/admin/jsp/layout/body.jsp"></put-attribute>
+		<put-attribute name="footer"
+			value="/WEB-INF/views/admin/jsp/layout/footer.jsp"></put-attribute>
+	</definition>
+
+	<!-- client -->
+	<definition name="vocabulary" extends="master-client">
+		<put-attribute name="body"
+			value="/WEB-INF/views/client/jsp/vocabulary/vocabulary.jsp"></put-attribute>
+	</definition>
+	<definition name="vocabularycontent" extends="master-client">
+		<put-attribute name="body"
+			value="/WEB-INF/views/client/jsp/vocabulary/vocabularycontent.jsp"></put-attribute>
+	</definition>
+
+	<definition name="listening-vocabulary-question"
+		extends="master-client">
+		<put-attribute name="body"
+			value="/WEB-INF/views/client/jsp/vocabulary/listening-vocabulary-question.jsp"></put-attribute>
+	</definition>
+	<definition name="listquestionvocabulary"
+		extends="master-client">
+		<put-attribute name="body"
+			value="/WEB-INF/views/client/jsp/vocabulary/listquestionvocabulary.jsp"></put-attribute>
+	</definition>
+	<definition name="practicePart1List" extends="master-client">
+		<put-attribute name="body"
+			value="/WEB-INF/views/client/jsp/practice/practice-list-Part1.jsp"></put-attribute>
+	</definition>
+	<definition name="practicePart1" extends="master-client">
+		<put-attribute name="body"
+			value="/WEB-INF/views/client/jsp/practice/practicePart1.jsp"></put-attribute>
+	</definition>
+	<definition name="practicePart2List" extends="master-client">
+		<put-attribute name="body"
+			value="/WEB-INF/views/client/jsp/practice/practice-list-Part2.jsp"></put-attribute>
+	</definition>
+	<definition name="practicePart2" extends="master-client">
+		<put-attribute name="body"
+			value="/WEB-INF/views/client/jsp/practice/practicePart2.jsp"></put-attribute>
+	</definition>
+
+	<definition name="practicePart3List" extends="master-client">
+		<put-attribute name="body"
+			value="/WEB-INF/views/client/jsp/practice/practice-part3-list.jsp"></put-attribute>
+	</definition>
+	<definition name="practicePart3" extends="master-client">
+		<put-attribute name="body"
+			value="/WEB-INF/views/client/jsp/practice/practicePart3.jsp"></put-attribute>
+	</definition>
+
+	<definition name="practicePart4List" extends="master-client">
+		<put-attribute name="body"
+			value="/WEB-INF/views/client/jsp/practice/practice-part4-list.jsp"></put-attribute>
+	</definition>
+
+	<definition name="practicePart4" extends="master-client">
+		<put-attribute name="body"
+			value="/WEB-INF/views/client/jsp/practice/practicePart4.jsp"></put-attribute>
+	</definition>
+
+	<definition name="practicePart5List" extends="master-client">
+		<put-attribute name="body"
+			value="/WEB-INF/views/client/jsp/practice/practice-part5-list.jsp"></put-attribute>
+	</definition>
+
+	<definition name="practicePart5" extends="master-client">
+		<put-attribute name="body"
+			value="/WEB-INF/views/client/jsp/practice/practicePart5.jsp"></put-attribute>
+	</definition>
+	<definition name="practice-part5-result"
+		extends="master-client">
+		<put-attribute name="body"
+			value="/WEB-INF/views/client/jsp/practice/practice-part5-result.jsp"></put-attribute>
+	</definition>
+	<definition name="practice-part5-review"
+		extends="master-client">
+		<put-attribute name="body"
+			value="/WEB-INF/views/client/jsp/practice/practice-part5-review.jsp"></put-attribute>
+	</definition>
+
+	<definition name="home" extends="master-client">
+		<put-attribute name="body"
+			value="/WEB-INF/views/client/jsp/index.jsp"></put-attribute>
+	</definition>
+
+	<definition name="practice-page" extends="master-client">
+		<put-attribute name="body"
+			value="/WEB-INF/views/client/jsp/practice-page.jsp"></put-attribute>
+	</definition>
+
+	<definition name="grammar-guideline-list"
+		extends="master-client">
+		<put-attribute name="body"
+			value="/WEB-INF/views/client/jsp/grammar-guideline/grammar-guideline-list.jsp"></put-attribute>
+	</definition>
+
+	<definition name="grammar-guideline-detail"
+		extends="master-client">
+		<put-attribute name="body"
+			value="/WEB-INF/views/client/jsp/grammar-guideline/grammar-guideline-detail.jsp"></put-attribute>
+	</definition>
+
+	<!-- examination -->
+
+
+
+
+	<definition name="exam/part1" extends="master-client-exam">
+		<put-attribute name="body"
+			value="/WEB-INF/views/client/jsp/exam/part1/examPart1.jsp"></put-attribute>
+	</definition>
+	<definition name="exam/part2" extends="master-client-exam">
+		<put-attribute name="body"
+			value="/WEB-INF/views/client/jsp/exam/part2/examPart2.jsp"></put-attribute>
+	</definition>
+
+
+	<definition name="exam/part3" extends="master-client-exam">
+		<put-attribute name="body"
+			value="/WEB-INF/views/client/jsp/exam/part3/examPart3.jsp"></put-attribute>
+	</definition>
+
+
+	<definition name="exam/part4" extends="master-client-exam">
+		<put-attribute name="body"
+			value="/WEB-INF/views/client/jsp/exam/part4/examPart4.jsp"></put-attribute>
+	</definition>
+
+	<definition name="exam/part5" extends="master-client-exam">
+		<put-attribute name="body"
+			value="/WEB-INF/views/client/jsp/exam/part5/examPart5.jsp"></put-attribute>
+	</definition>
+	<definition name="exam/part6" extends="master-client-exam">
+		<put-attribute name="body"
+			value="/WEB-INF/views/client/jsp/exam/part6/examPart6.jsp"></put-attribute>
+	</definition>
+
+	<definition name="exam/part7" extends="master-client-exam">
+		<put-attribute name="body"
+			value="/WEB-INF/views/client/jsp/exam/part7/examPart7.jsp"></put-attribute>
+	</definition>
+
+	<definition name="exam/part7/review"
+		extends="master-client-exam">
+		<put-attribute name="body"
+			value="/WEB-INF/views/client/jsp/exam/part7/exam-part7-review.jsp"></put-attribute>
+	</definition>
+
+	<definition name="exam/part3/review"
+		extends="master-client-exam">
+		<put-attribute name="body"
+			value="/WEB-INF/views/client/jsp/exam/part3/exam-part3-review.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="exam/part4/review"
+		extends="master-client-exam">
+		<put-attribute name="body"
+			value="/WEB-INF/views/client/jsp/exam/part4/exam-part4-review.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="exam/part6/review"
+		extends="master-client-exam">
+		<put-attribute name="body"
+			value="/WEB-INF/views/client/jsp/exam/part6/exam-part6-review.jsp"></put-attribute>
+	</definition>
+
+
+	<definition name="exam/part-1-intro"
+		extends="master-client-exam">
+		<put-attribute name="body"
+			value="/WEB-INF/views/client/jsp/exam/part1/part1-intro.jsp"></put-attribute>
+	</definition>
+
+	<definition name="exam/part-2-intro"
+		extends="master-client-exam">
+		<put-attribute name="body"
+			value="/WEB-INF/views/client/jsp/exam/part2/part2-intro.jsp"></put-attribute>
+	</definition>
+	<definition name="exam/part-3-intro"
+		extends="master-client-exam">
+		<put-attribute name="body"
+			value="/WEB-INF/views/client/jsp/exam/part3/part3-intro.jsp"></put-attribute>
+	</definition>
+	<definition name="exam/part-4-intro"
+		extends="master-client-exam">
+		<put-attribute name="body"
+			value="/WEB-INF/views/client/jsp/exam/part4/part4-intro.jsp"></put-attribute>
+	</definition>
+	<definition name="exam/part-5-intro"
+		extends="master-client-exam">
+		<put-attribute name="body"
+			value="/WEB-INF/views/client/jsp/exam/part5/part5-intro.jsp"></put-attribute>
+	</definition>
+	
+	<definition name="exam/part-6-intro"
+		extends="master-client-exam">
+		<put-attribute name="body"
+			value="/WEB-INF/views/client/jsp/exam/part6/part6-intro.jsp"></put-attribute>
+	</definition>
+
+	<definition name="exam/part-7-intro"
+		extends="master-client-exam">
+		<put-attribute name="body"
+			value="/WEB-INF/views/client/jsp/exam/part7/part7-intro.jsp"></put-attribute>
+	</definition>
+
+	<definition name="exam/result"
+		template="/WEB-INF/views/client/jsp/exam/result/result.jsp">
+	</definition>
+	<!-- /examination -->
+
+	<!--/client -->
+
+
+
+
+
+
+
+
+
+	<!-- admin -->
+
+	<definition name="admin/index" extends="master-admin">
+		<put-attribute name="body"
+			value="/WEB-INF/views/admin/jsp/index.jsp"></put-attribute>
+	</definition>
+
+	<definition name="practice-grammar-list"
+		extends="master-admin">
+		<put-attribute name="body"
+			value="/WEB-INF/views/admin/jsp/practice-grammar/practice-grammar-list.jsp"></put-attribute>
+	</definition>
+
+	<definition name="practice-grammar-action"
+		extends="master-admin">
+		<put-attribute name="body"
+			value="/WEB-INF/views/admin/jsp/practice-grammar/practice-grammar-action.jsp"></put-attribute>
+	</definition>
+	<definition name="exam-list" extends="master-admin">
+		<put-attribute name="body"
+			value="/WEB-INF/views/admin/jsp/makeExam/exam-list.jsp"></put-attribute>
+	</definition>
+
+	<definition name="exam-action" extends="master-admin">
+		<put-attribute name="body"
+			value="/WEB-INF/views/admin/jsp/makeExam/exam-action.jsp"></put-attribute>
+	</definition>
+
+	<definition name="vocabulary-list" extends="master-admin">
+		<put-attribute name="body"
+			value="/WEB-INF/views/admin/jsp/vocabulary/vocabulary-list.jsp"></put-attribute>
+	</definition>
+	<definition name="vocabulary-action" extends="master-admin">
+		<put-attribute name="body"
+			value="/WEB-INF/views/admin/jsp/vocabulary/vocabulary-action.jsp"></put-attribute>
+	</definition>
+	<definition name="vocabularycontent-list"
+		extends="master-admin">
+		<put-attribute name="body"
+			value="/WEB-INF/views/admin/jsp/vocabulary/vocabularycontent-list.jsp"></put-attribute>
+	</definition>
+
+	<!-- part1 -->
+	<definition name="part1-action" extends="master-admin">
+		<put-attribute name="body"
+			value="/WEB-INF/views/admin/jsp/part1/part1-action.jsp"></put-attribute>
+	</definition>
+	<definition name="part1-list" extends="master-admin">
+		<put-attribute name="body"
+			value="/WEB-INF/views/admin/jsp/part1/part1-list.jsp"></put-attribute>
+	</definition>
+
+	<definition name="access-denied"
+		template="/WEB-INF/views/admin/jsp/error-pages/page_403.jsp">
+	</definition>
+	
+	<!-- comment -->
+	
+	<definition name="comment-list" extends="master-admin">
+		<put-attribute name="body"
+			value="/WEB-INF/views/admin/jsp/comment/comment-list.jsp"></put-attribute>
+	</definition>
+	<definition name="comment-action" extends="master-admin">
+		<put-attribute name="body"
+			value="/WEB-INF/views/admin/jsp/comment/comment-action.jsp"></put-attribute>
+	</definition>
+	
+	<!-- /comment -->
+
+	<!--/admin -->
+
+
+	<!-- login -->
+	<definition name="login" template="/WEB-INF/views/login.jsp">
+	</definition>
+	<!-- /login -->
+
+
+</tiles-definitions>

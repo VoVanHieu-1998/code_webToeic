@@ -1,0 +1,17 @@
+eclipse.preferences.version=1
+encoding//src/main/java/com/dacnpm/toeic2020/Controller/CommentController.java=UTF-8
+encoding//src/main/java/com/dacnpm/toeic2020/Controller/PracticeController.java=UTF-8
+encoding//src/main/java/com/dacnpm/toeic2020/Controller/ReplyController.java=UTF-8
+encoding//src/main/java/com/dacnpm/toeic2020/Impl/UserDAOImpl.java=UTF-8
+encoding//src/main/java/com/dacnpm/toeic2020/Service/ExaminationService.java=UTF-8
+encoding//src/main/java/com/dacnpm/toeic2020/Service/PracticeGrammarService.java=UTF-8
+encoding//src/main/java/com/dacnpm/toeic2020/Validator/ExamValidator.java=UTF-8
+encoding//src/main/java/com/dacnpm/toeic2020/Validator/PracticeGrammarValidator.java=UTF-8
+encoding//src/main/webapp/WEB-INF/views/client/jsp/exam/part1/examPart1.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/client/jsp/examPart3.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/client/jsp/layout/footer.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/client/jsp/layout/header1.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/client/jsp/layout/search.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/client/jsp/practice/practice-part3-list.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/client/jsp/practice/practice-part5-review.jsp=UTF-8
+encoding//src/main/webapp/WEB-INF/views/client/jsp/practice/practicePart3.jsp=UTF-8
